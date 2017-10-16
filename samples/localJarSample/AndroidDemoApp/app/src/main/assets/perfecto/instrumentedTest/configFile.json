@@ -9,9 +9,10 @@
   ],
   "jobName": "some_job",
   "jobNumber": 1,
-  "branch": "some_branch",
+  "apkPath": "app/build/outputs/apk/debug",
+  "testApkPath": "app/build/outputs/apk/androidTest/debug",
   "jUnitRunner": "android.support.test.runner.AndroidJUnitRunner",
-  "testPackage": "com.example.noamz.playground.test",
+  "testPackage": "com.example.perfecto.tipcalculator.test",
   "installationDetails" : {"preCleanUp" : "true"},
   "postExecution" : {"uninstall" : "true" }		
 

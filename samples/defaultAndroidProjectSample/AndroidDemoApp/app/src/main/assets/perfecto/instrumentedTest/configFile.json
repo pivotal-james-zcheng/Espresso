@@ -7,9 +7,10 @@
 			"platformVersion": "^[678].*"
 		}
   ],
+  "apkPath": "app/build/outputs/apk/debug",
+  "testApkPath": "app/build/outputs/apk/androidTest/debug",
   "jobName": "some_job",
   "jobNumber": 1,
-  "branch": "some_branch",
   "installationDetails" : {"preCleanUp" : "true"},
   "postExecution" : {"uninstall" : "true" }
 }

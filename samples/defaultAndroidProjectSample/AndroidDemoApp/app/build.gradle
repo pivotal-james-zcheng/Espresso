@@ -3,7 +3,7 @@ apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "25"
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "com.example.perfecto.tipcalculator"
